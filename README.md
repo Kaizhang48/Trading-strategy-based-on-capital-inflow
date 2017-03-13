@@ -1,1 +1,1 @@
-# Trading-strategy-based-on-One-of-them-is-based-on-capital-inflow-
+# Trading-strategy-based-on-capital-inflow

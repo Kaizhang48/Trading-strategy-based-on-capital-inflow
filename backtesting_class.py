@@ -24,7 +24,6 @@ class Backtest:
         self.CLOSE=dwd.dealwithdata(close).values.T
         self.UWCLOSE=dwd.dealwithdata(uwclose).values.T
         self.UWOPN=dwd.dealwithdata(uwopn).values.T
-        self.TURNOVER=dwd.dealwithdata(turnover).values.T
         self.MARKETVALUE=dwd.dealwithdata(mktvlu).values.T
         self.universe_num=len(self.CLOSE[0,:])
         self.storage_room=storage_room
@@ -38,7 +37,6 @@ class Backtest:
         self.commision_rate=commision_rate
         self.lowest_commision=lowest_commision
         self.changelength=changelength
-        self.limit_coeff=limit_coeff
         self.observe=observe        
         self.BENCHMARK=benchmark
         self.stk_level=len(self.level_pct)
